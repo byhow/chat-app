@@ -34,8 +34,8 @@ importers:
         specifier: ^7.0.0
         version: 7.0.0(enquirer@2.3.6)
       electron:
-        specifier: 30.0.0
-        version: 30.0.0
+        specifier: 30.0.2
+        version: 30.0.2
       eslint:
         specifier: ^9.0.0
         version: 9.0.0
@@ -301,9 +301,6 @@ packages:
 
   '@types/node@20.12.7':
     resolution: {integrity: sha512-wq0cICSkRLVaf3UGLMGItu/PtdY7oaXaI/RVU+xliKVOtRna3PRY57ZDfztpDL0n11vfymMUnXv8QwYCO7L1wg==}
-
-  '@types/node@20.4.4':
-    resolution: {integrity: sha512-CukZhumInROvLq3+b5gLev+vgpsIqC2D0deQr/yS1WnxvmYLlJXZpaQrQiseMY+6xusl79E04UjWoqyr+t1/Ew==}
 
   '@types/normalize-package-data@2.4.1':
     resolution: {integrity: sha512-Gj7cI7z+98M282Tqmp2K5EIsoouUEzbBJhQQzDE3jSIRk6r9gsz0oUokqIUR4u1R3dMHo0pDHM7sNOHyhulypw==}
@@ -781,8 +778,8 @@ packages:
     resolution: {integrity: sha512-4wlZzkUm5cJNiOtp5wL804+QpygdKTKkrZJXA3sSDEI2XnCVPv0kxmxUvVw4KHBwbNS+Yox89agEr+VkR7kxww==}
     engines: {node: '>=8.0.0'}
 
-  electron@30.0.0:
-    resolution: {integrity: sha512-GRwKphq/TUhSlb44OwSckXKl50f5OR/pm9MvF3rBLyqcxwfu7L11xejrZ0hDea1eKyCkzGd4B+cIqaQiDguPEA==}
+  electron@30.0.2:
+    resolution: {integrity: sha512-zv7T+GG89J/hyWVkQsLH4Y/rVEfqJG5M/wOBIGNaDdqd8UV9/YZPdS7CuFeaIj0H9LhCt95xkIQNpYB/3svOkQ==}
     engines: {node: '>= 12.20.55'}
     hasBin: true
 
@@ -2938,18 +2935,18 @@ snapshots:
     dependencies:
       '@types/http-cache-semantics': 4.0.1
       '@types/keyv': 3.1.4
-      '@types/node': 20.4.4
+      '@types/node': 20.12.7
       '@types/responselike': 1.0.0
 
   '@types/fs-extra@9.0.13':
     dependencies:
-      '@types/node': 20.4.4
+      '@types/node': 20.12.7
     optional: true
 
   '@types/glob@7.2.0':
     dependencies:
       '@types/minimatch': 5.1.2
-      '@types/node': 20.4.4
+      '@types/node': 20.12.7
     optional: true
 
   '@types/http-cache-semantics@4.0.1': {}
@@ -2960,7 +2957,7 @@ snapshots:
 
   '@types/keyv@3.1.4':
     dependencies:
-      '@types/node': 20.4.4
+      '@types/node': 20.12.7
 
   '@types/minimatch@5.1.2':
     optional: true
@@ -2969,13 +2966,11 @@ snapshots:
     dependencies:
       undici-types: 5.26.5
 
-  '@types/node@20.4.4': {}
-
   '@types/normalize-package-data@2.4.1': {}
 
   '@types/responselike@1.0.0':
     dependencies:
-      '@types/node': 20.4.4
+      '@types/node': 20.12.7
 
   '@types/semver@7.5.0': {}
 
@@ -3516,7 +3511,7 @@ snapshots:
       - supports-color
     optional: true
 
-  electron@30.0.0:
+  electron@30.0.2:
     dependencies:
       '@electron/get': 2.0.2
       '@types/node': 20.12.7
