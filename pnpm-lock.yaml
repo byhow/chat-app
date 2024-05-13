@@ -13,7 +13,7 @@ importers:
         version: 0.8.4
       electron-squirrel-startup:
         specifier: ^1.0.0
-        version: 1.0.0
+        version: 1.0.1
     devDependencies:
       '@byhow/eslint-config':
         specifier: ^0.1.2
@@ -758,8 +758,8 @@ packages:
     os: [darwin, linux]
     hasBin: true
 
-  electron-squirrel-startup@1.0.0:
-    resolution: {integrity: sha512-Oce8mvgGdFmwr+DsAcXBmFK8jFfN6yaFAP9IvyhTfupM3nFkBku/7VS/mdtJteWumImkC6P+BKGsxScoDDkv9Q==}
+  electron-squirrel-startup@1.0.1:
+    resolution: {integrity: sha512-sTfFIHGku+7PsHLJ7v0dRcZNkALrV+YEozINTW8X1nM//e5O3L+rfYuvSW00lmGHnYmUjARZulD8F2V8ISI9RA==}
 
   electron-winstaller@5.3.1:
     resolution: {integrity: sha512-oM8BW3a8NEqG0XW+Vx3xywhk0DyDV4T0jT0zZfWt0IczNT3jHAAvQWBorF8osQDplSsCyXXyxrsrQ8cY0Slb/A==}
@@ -3465,7 +3465,7 @@ snapshots:
       - supports-color
     optional: true
 
-  electron-squirrel-startup@1.0.0:
+  electron-squirrel-startup@1.0.1:
     dependencies:
       debug: 2.6.9
     transitivePeerDependencies:
